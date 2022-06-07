@@ -1,2 +1,1 @@
-# ShedeurCoder.github.io
-lol idk
+# Personal website for Shedeur B
