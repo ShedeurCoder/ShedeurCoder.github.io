@@ -1,2 +1,2 @@
 # my personal website.
-visit at (shedeurcoder.github.io)[https://shedeurcoder.github.io] or (gigashad.netlify.app)[https://gigashad.netlify.app]
+visit at [https://shedeurcoder.github.io] or [https://gigashad.netlify.app]
