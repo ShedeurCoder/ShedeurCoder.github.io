@@ -1,0 +1,1 @@
+# my personal website. visit at shedeurcoder.github.io or gigashad.netlify.app
