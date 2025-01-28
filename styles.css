@@ -78,10 +78,15 @@ header > .container {
 
 .socials > a:nth-child(2) {
     margin-inline: 0.2em;
-    animation-delay: 150ms;
+    animation-delay: 100ms;
 }
 
 .socials > a:nth-child(3) {
+    animation-delay: 200ms;
+}
+
+.socials > a:nth-child(4) {
+    margin-inline: 0.2em;
     animation-delay: 300ms;
 }
 
