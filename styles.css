@@ -5,7 +5,7 @@
 
 body {
     background: rgb(5, 5, 5);
-    color: rgb(243, 238, 238);
+    color: rgb(245, 245, 245);
     font-family: system-ui, sans-serif;
     padding: 0;
     margin: 0;
@@ -16,9 +16,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/header.webp);
-    background-position: center;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(0, 0, 0, 0.1);
     background-blend-mode: darken;
 }
 
@@ -67,13 +69,18 @@ header > .container {
     align-items: center;
     justify-content: center;
     aspect-ratio: 1/1;
-    width: 60px;
+    border: 2px rgb(87, 85, 85) solid;
+    width: 65px;
     text-decoration: none;
     animation: forwards slideIn 1s;
     position: relative;
     filter: blur(5);
     left: 200px;
     opacity: 0;
+}
+
+.socials > a:nth-child(1) {
+    font-size: 2.3rem;
 }
 
 .socials > a:nth-child(2) {
@@ -104,9 +111,11 @@ section {
 }
 
 .about {
-    background-image: url(images/starship1.jpeg);
-    background-position: center;
-    background-color: rgb(0, 0, 0, 0.7);
+    background-image: url(images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 
@@ -207,11 +216,19 @@ footer a {
         filter: blur(0);
         transform: translateX(0)
     }
+    
 }
 
 @media only screen and (max-width: 900px) {
     .intro > h1 {
         font-size: 3rem;
+    }
+    .tables {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .works h2 {
+        text-align: center;
     }
 }
 
@@ -225,9 +242,9 @@ footer a {
     .intro {
         text-align: center;
     }
-
-    .tables {
-        flex-direction: column-reverse;
+    
+    .about {
+        background-image: url(images/aboutmobile.jpg);
     }
 }
 
